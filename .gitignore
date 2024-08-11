@@ -164,4 +164,5 @@ cython_debug/
 =======
 .env
 /myenv
+myenv
 >>>>>>> f2da976 (Ai APP)
