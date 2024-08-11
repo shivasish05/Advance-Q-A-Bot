@@ -22,7 +22,7 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 def generate_response(question,api_key,llm,temperature,max_token):
-    Os.environ['OPENAI_API_KEY'] = api_key
+    os.environ['OPENAI_API_KEY'] = api_key
     llm= ChatOpenAI(model = llm)
     output_parser = StrOutputParser()
     chain = prompt | llm |output_parser
