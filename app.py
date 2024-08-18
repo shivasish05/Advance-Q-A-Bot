@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Langsmith tracking 
-os.environ['LANGCHAIN_API_KEY'] = "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"
-os.environ['LANGCHAIN_TRACING_V2'] = 'true'
-os.environ['LANGCHAIN_PROJECT'] = "Simple Q&A Chat Bot"
+# os.environ['LANGCHAIN_API_KEY'] = "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"
+# os.environ['LANGCHAIN_TRACING_V2'] = 'true'
+# os.environ['LANGCHAIN_PROJECT'] = "Simple Q&A Chat Bot"
 
 # Prompt Template
 prompt = ChatPromptTemplate.from_messages(
